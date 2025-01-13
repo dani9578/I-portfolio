@@ -1,0 +1,202 @@
+/*Google Font-poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+/* Media Screen Max-width: 768px */
+
+
+
+*,
+::before,
+::before{
+    box-sizing:border-box;
+} 
+
+ html{
+    scroll-behavior: smooth;
+}
+
+hr{
+    border:5px solid red;
+}
+.role{
+    font-family: cursive;
+}
+
+/* projects */
+
+.project_items {
+    background-color: aliceblue;
+}
+.project_items p{
+    text-align: center;
+}
+
+/* work experience */
+
+
+.work a{
+    text-decoration: none;
+}
+.work_details{
+    background-color: aliceblue;
+}
+.work_details_1,
+.work_details_2{
+    margin-left: 30px;
+}
+
+/* Education */
+
+.education p{
+    margin-left: 30px;
+}
+.education_course{
+    margin-left: 50px;
+}
+
+/* Review */
+
+.review_1{
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 15px;
+}
+.review_1 p{
+    margin-top: 30px;
+    margin-left: 30px;
+   
+}
+
+.review_staff p{
+    color: rgb(162, 159, 159)
+}
+
+h5{
+    font-family: "poppins";
+}
+
+.intro{
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.sections a{
+    text-decoration: none;
+}
+
+/* contact */
+
+.contact{
+    text-align: center;
+}
+
+.margin{
+    margin-bottom: 5px;
+}
+
+.contact button{
+    border: none;
+    background-color: blueviolet;
+    color: azure;
+    margin-left: 130px;
+    border-radius: 20px;
+    padding: 0px 15px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* For ipad */
+
+@media screen and (min-width:768px){
+    body{
+        margin: 0;
+    }
+
+    form input{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    form textarea{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .contact_container button{
+        margin-left: 280px;
+    }
+    .education_details{
+        margin-left: 80px;
+    }
+
+
+}
+
+/* For laptop */
+
+@media screen and (min-width:1024px){
+
+    .intro{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+    .role{
+        font-family:cursive;
+    }
+    .role h2{
+        font-size:45px;
+    }
+    .sections{
+        margin-left: 800px;
+        margin-top: 50px;
+        display: flex;
+        font-size: 20px;
+        
+    }
+    .sections a{
+        margin: 0px 10px;
+    }
+
+    .all_sections{
+        display: inline-flex;
+        margin-top: 80px;
+        border: 1px solid black;
+        margin-bottom: 40px;
+    }
+    .project{
+        border: 1px solid black; 
+        width: 550px;
+    }
+    .project_items{
+        background-color: white;
+
+    }
+    .project_details{
+        margin-top: 0px 0px;
+    }
+    .project_details h5{
+        margin-top: 23px;
+    }
+
+    .work{
+        border: 1px solid black;
+        padding-top: 20px;
+    }
+    .work_details{
+        background-color: white;
+    }
+
+    .education{
+        border: 1px solid black;
+        padding-top: 20px;
+    }
+    .education_details{
+        margin-left: 20px;
+    }
+    .contact_container{
+        margin-bottom: 40px;
+    }
+    
+ }
